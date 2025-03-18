@@ -33,7 +33,7 @@
                     android:drawableTop="@drawable/baseline_favorite_24"
                     android:text="@string/favorites"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/textColorPrimary" />
 
                 <Button
                     android:id="@+id/shufflebtn"
@@ -45,7 +45,7 @@
                     android:drawableTop="@drawable/baseline_shuffle_24"
                     android:text="@string/shuffle"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/textColorPrimary" />
 
                 <Button
                     android:id="@+id/playistbtn"
@@ -57,7 +57,7 @@
                     android:drawableTop="@drawable/baseline_musiclibrary_24"
                     android:text="@string/playlist"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/textColorPrimary" />
 
             </LinearLayout>
 
@@ -67,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="@string/totalsongs"
-                android:textColor="@color/black" />
+                android:textColor="@color/textColorPrimary" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/musicRV"

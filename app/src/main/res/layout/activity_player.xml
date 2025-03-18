@@ -26,7 +26,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:textColor="@color/black"
+            android:textColor="@color/textColorPrimary"
             android:text="@string/mymusic"
             android:textSize="20sp"
             tools:ignore="HardcodedText"
@@ -56,7 +56,7 @@
         android:layout_marginHorizontal="20dp"
         android:text="@string/song_name"
         android:textSize="20sp"
-        android:textColor="@color/black"
+        android:textColor="@color/textColorPrimary"
         android:textAlignment="center"
         android:layout_weight="1"
         android:gravity="center"/>
@@ -111,7 +111,7 @@
             android:id="@+id/seekbarStart"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textColor="@color/black"
+            android:textColor="@color/textColorPrimary"
             android:text="@string/starttime"
             android:gravity="center"
            />
@@ -125,7 +125,7 @@
             android:id="@+id/seekbarEnd"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textColor="@color/black"
+            android:textColor="@color/textColorPrimary"
             android:text="@string/endtime"
             android:gravity="center"/>
     </LinearLayout>
