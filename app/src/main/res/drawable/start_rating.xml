@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background (empty star) -->
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="#BDBDBD" /> <!-- Grey for empty stars -->
+        </shape>
+    </item>
+
+    <!-- Half-filled star (if stepSize is 0.5) -->
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <solid android:color="#FFD700" /> <!-- Gold for half-selected stars -->
+            </shape>
+        </clip>
+    </item>
+
+    <!-- Fully selected stars -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="#FFD700" /> <!-- Gold for selected stars -->
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

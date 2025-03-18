@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/subject"
+        android:gravity="center|start"
+        android:padding="15dp"
+        android:inputType="textEmailSubject"
+        android:textColor="@color/black"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/email_address"
+        android:gravity="center|start"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:hint="@string/feedback"
+        android:gravity="center|start"
+        android:padding="15dp"
+        android:textColor="@color/black"/>
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@color/pink"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+
+
+
+</LinearLayout>

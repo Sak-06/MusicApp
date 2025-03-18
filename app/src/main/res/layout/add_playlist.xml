@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="?attr/themeColor"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp"
+        app:startIconDrawable="@drawable/baseline_musiclibrary_24"
+        app:startIconTint="?attr/themeColor"
+        android:hint="@string/playlist_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/playlistlistname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:inputType="text"
+            android:maxLength="40"
+            android:paddingStart="48dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="?attr/themeColor"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp"
+        app:startIconDrawable="@drawable/baseline_musiclibrary_24"
+        app:startIconTint="?attr/themeColor"
+        android:hint="@string/user_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:maxLength="40"
+            android:paddingStart="48dp">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

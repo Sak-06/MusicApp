@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Musico </string>
+    <string name="favorites">Favorites</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="playlist">Playlist</string>
+    <string name="totalsongs">Total Songs</string>
+    <string name="mymusic">MY MUSIC</string>
+    <string name="song_name">Song Name</string>
+    <string name="previous">Previous</string>
+    <string name="back">back</string>
+    <string name="play">play</string>
+    <string name="next">next</string>
+    <string name="endtime">04:25</string>
+    <string name="starttime">00:00</string>
+    <string name="timer">timer</string>
+    <string name="share">share</string>
+    <string name="equalizer">equalizer</string>
+    <string name="repeat">repeat</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="item1">Feedback</string>
+    <string name="item2">Setting</string>
+    <string name="item3">About</string>
+    <string name="item4">Exit</string>
+    <string name="app_icon">app_icon</string>
+    <string name="nav_text">Welcome to \nWorld of Music</string>
+    <string name="song_album">Song album</string>
+    <string name="min_15">15 minutes</string>
+    <string name="min_30">30 minutes</string>
+    <string name="min_60">60 minutes</string>
+    <string name="search_view">Search View</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="playlist_name">Playlist Name</string>
+    <string name="song_image">Song Image</string>
+    <string name="delete_button">Delete Button</string>
+    <string name="user_name">User name</string>
+    <string name="add">Add</string>
+    <string name="remove_all">Remove All</string>
+    <string name="search">Search Song</string>
+    <string name="about">about</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="email_address">Email Address (optional)</string>
+    <string name="feedback">Feedback</string>
+    <string name="rate_app">Please rate this app</string>
+    <string name="submit">Submit</string>
+    <string name="subject">Subject</string>
+    <string name="set_theme">Set Theme</string>
+    <string name="sort_by">Sort By</string>
+    <string name="version_name">Version Name</string>
+
+</resources>

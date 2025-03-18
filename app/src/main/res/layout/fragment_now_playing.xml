@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".NowPlaying"
+    android:background="?attr/themeColor">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/songimg"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="5dp"
+        app:shapeAppearance="@style/curved"
+        android:src="@drawable/splash_screen"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:id="@+id/songn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/song_name"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_toEndOf="@id/songimg"
+        android:layout_toStartOf="@id/prevbtn"
+        android:textStyle="bold"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/prevbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/previous"
+        android:src="@drawable/previous_icon"
+        android:tint="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@id/playpausebtn"
+
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/playpausebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/play"
+        android:src="@drawable/play_icon"
+        app:iconSize="5dp"
+        android:tint="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@+id/nextbtn"
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/nextbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/next"
+        android:src="@drawable/next_icon"
+        app:iconSize="10dp"
+        android:backgroundTint="@color/white"
+        android:tint="@color/white"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        />
+
+
+</RelativeLayout>
