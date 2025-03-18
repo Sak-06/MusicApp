@@ -2,6 +2,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     //theme for activities
     <style name="lavendar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorOnBackground">#000000</item>
         <item name="themeColor">@color/ligt_lavendar</item>
         <item name="colorPrimary">@color/cyan </item>
         <item name="colorPrimaryVariant">@color/black</item>
@@ -13,6 +14,7 @@
         <item name="android:forceDarkAllowed">false</item>
     </style>
     <style name="pink" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorOnBackground">#000000</item>
         <item name="themeColor">@color/pink</item>
         <item name="colorPrimary">@color/cyan</item>
         <item name="colorPrimaryVariant">@color/black</item>
@@ -24,6 +26,7 @@
         <item name="android:forceDarkAllowed">false</item>
     </style>
     <style name="blue" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorOnBackground">#000000</item>
         <item name="themeColor">@color/blue</item>
         <item name="colorPrimary">@color/cyan</item>
         <item name="colorPrimaryVariant">@color/black</item>
@@ -35,6 +38,7 @@
         <item name="android:forceDarkAllowed">false</item>
     </style>
     <style name="green" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorOnBackground">#000000</item>
         <item name="themeColor">@color/green</item>
         <item name="colorPrimary">@color/cyan</item>
         <item name="colorPrimaryVariant">@color/black</item>
@@ -46,6 +50,7 @@
         <item name="android:forceDarkAllowed">false</item>
     </style>
     <style name="black" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorOnBackground">#000000</item>
         <item name="themeColor">@color/black</item>
         <item name="colorPrimary">@color/cyan</item>
         <item name="colorPrimaryVariant">@color/black</item>
@@ -58,6 +63,7 @@
     </style>
     //theme for navigation drawer
     <style name="lavendarnav" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorOnBackground">#000000</item>
         <item name="themeColor">@color/ligt_lavendar</item>
         <item name="colorPrimary">@color/cyan</item>
         <item name="colorPrimaryVariant">@color/black</item>
@@ -69,6 +75,7 @@
         <item name="android:forceDarkAllowed">false</item>
     </style>
     <style name="pinknav" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorOnBackground">#000000</item>
         <item name="themeColor">@color/pink</item>
         <item name="colorPrimary">@color/cyan</item>
         <item name="colorPrimaryVariant">@color/black</item>
@@ -80,6 +87,7 @@
         <item name="android:forceDarkAllowed">false</item>
     </style>
     <style name="bluenav" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorOnBackground">#000000</item>
         <item name="themeColor">@color/blue</item>
         <item name="colorPrimary">@color/cyan</item>
         <item name="colorPrimaryVariant">@color/black</item>
@@ -91,6 +99,7 @@
         <item name="android:forceDarkAllowed">false</item>
     </style>
     <style name="greennav" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorOnBackground">#000000</item>
         <item name="themeColor">@color/green</item>
         <item name="colorPrimary">@color/cyan</item>
         <item name="colorPrimaryVariant">@color/black</item>
@@ -102,6 +111,7 @@
         <item name="android:forceDarkAllowed">false</item>
     </style>
     <style name="blacknav" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorOnBackground">#000000</item>
         <item name="themeColor">@color/black</item>
         <item name="colorPrimary">@color/cyan</item>
         <item name="colorPrimaryVariant">@color/black</item>

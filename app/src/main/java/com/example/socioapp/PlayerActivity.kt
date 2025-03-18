@@ -16,6 +16,7 @@ import android.os.Build
 import android.os.Bundle
 import android.os.IBinder
 import android.provider.MediaStore
+import android.util.TypedValue
 import android.widget.LinearLayout
 import android.widget.SeekBar
 import android.widget.Toast
@@ -100,6 +101,9 @@ class PlayerActivity : AppCompatActivity(),ServiceConnection , MediaPlayer.OnCom
                 binding.repeatbtn.setColorFilter(ContextCompat.getColor(this,R.color.yellow))
             }
            else{
+                val typedValue = TypedValue()
+                theme.resolveAttribute(R.attr.themeColor, typedValue, true)
+                binding.repeatbtn.setColorFilter(typedValue.data)
                repeat=false
             }
         }

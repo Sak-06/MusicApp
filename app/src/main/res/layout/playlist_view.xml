@@ -21,7 +21,7 @@
         android:layout_height="40dp"
         android:text="@string/playlist_name"
         android:contentDescription="@string/playlist_name"
-        android:textColor="@color/black"
+        android:textColor="@color/textColorPrimary"
         android:textSize="18sp"
         android:gravity="center"
         android:layout_marginHorizontal="5dp"
@@ -39,6 +39,6 @@
         android:layout_marginEnd="5dp"
         android:layout_marginStart="130dp"
         android:backgroundTint="@android:color/transparent"
-        />
+        app:tint="@color/textColorPrimary" />
 
 </com.google.android.material.card.MaterialCardView>
